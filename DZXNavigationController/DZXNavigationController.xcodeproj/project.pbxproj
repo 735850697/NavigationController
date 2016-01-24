@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11A4973F1C2984C3009EF490 /* NavigationTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4973D1C2984C3009EF490 /* NavigationTitleViewController.m */; };
+		11A497401C2984C3009EF490 /* NavigationTitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A4973E1C2984C3009EF490 /* NavigationTitleViewController.xib */; };
+		11A497441C298D14009EF490 /* NavigationBarButtonItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A497421C298D14009EF490 /* NavigationBarButtonItemViewController.m */; };
+		11A497451C298D14009EF490 /* NavigationBarButtonItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A497431C298D14009EF490 /* NavigationBarButtonItemViewController.xib */; };
+		857FBEDA1C278CD200A33039 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBED91C278CD200A33039 /* main.m */; };
+		857FBEDD1C278CD200A33039 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBEDC1C278CD200A33039 /* AppDelegate.m */; };
+		857FBEE51C278CD200A33039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857FBEE41C278CD200A33039 /* Assets.xcassets */; };
+		857FBEE81C278CD200A33039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857FBEE61C278CD200A33039 /* LaunchScreen.storyboard */; };
+		857FBEF31C278CD200A33039 /* DZXNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBEF21C278CD200A33039 /* DZXNavigationControllerTests.m */; };
+		857FBEFE1C278CD200A33039 /* DZXNavigationControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBEFD1C278CD200A33039 /* DZXNavigationControllerUITests.m */; };
+		857FBF0F1C278D6000A33039 /* DZXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF0E1C278D6000A33039 /* DZXViewController.m */; };
+		857FBF121C278D9200A33039 /* DZXNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF111C278D9200A33039 /* DZXNavigationController.m */; };
+		857FBF151C278DB100A33039 /* DZXBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF141C278DB100A33039 /* DZXBarButtonItem.m */; };
+		857FBF181C278DD300A33039 /* PushTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF171C278DD300A33039 /* PushTransitionAnimation.m */; };
+		857FBF1B1C278DE300A33039 /* PopTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF1A1C278DE300A33039 /* PopTransitionAnimation.m */; };
+		857FBF511C29834300A33039 /* DZXExampleListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF461C29834300A33039 /* DZXExampleListViewController.m */; };
+		857FBF521C29834300A33039 /* DZXExampleListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857FBF471C29834300A33039 /* DZXExampleListViewController.xib */; };
+		857FBF531C29834300A33039 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF491C29834300A33039 /* FirstViewController.m */; };
+		857FBF541C29834300A33039 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857FBF4A1C29834300A33039 /* FirstViewController.xib */; };
+		857FBF551C29834300A33039 /* NavigationTranslucentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF4C1C29834300A33039 /* NavigationTranslucentViewController.m */; };
+		857FBF561C29834300A33039 /* NavigationTranslucentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857FBF4D1C29834300A33039 /* NavigationTranslucentViewController.xib */; };
+		857FBF571C29834300A33039 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF4F1C29834300A33039 /* SecondViewController.m */; };
+		857FBF581C29834300A33039 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857FBF501C29834300A33039 /* SecondViewController.xib */; };
+		857FBF5D1C2A2CE600A33039 /* NavigationTitleViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 857FBF5B1C2A2CE600A33039 /* NavigationTitleViewViewController.m */; };
+		857FBF5E1C2A2CE600A33039 /* NavigationTitleViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 857FBF5C1C2A2CE600A33039 /* NavigationTitleViewViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		857FBEEF1C278CD200A33039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857FBECD1C278CD200A33039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857FBED41C278CD200A33039;
+			remoteInfo = DZXNavigationController;
+		};
+		857FBEFA1C278CD200A33039 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857FBECD1C278CD200A33039 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857FBED41C278CD200A33039;
+			remoteInfo = DZXNavigationController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A4973C1C2984C3009EF490 /* NavigationTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTitleViewController.h; sourceTree = "<group>"; };
+		11A4973D1C2984C3009EF490 /* NavigationTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTitleViewController.m; sourceTree = "<group>"; };
+		11A4973E1C2984C3009EF490 /* NavigationTitleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationTitleViewController.xib; sourceTree = "<group>"; };
+		11A497411C298D14009EF490 /* NavigationBarButtonItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationBarButtonItemViewController.h; sourceTree = "<group>"; };
+		11A497421C298D14009EF490 /* NavigationBarButtonItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationBarButtonItemViewController.m; sourceTree = "<group>"; };
+		11A497431C298D14009EF490 /* NavigationBarButtonItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBarButtonItemViewController.xib; sourceTree = "<group>"; };
+		857FBED51C278CD200A33039 /* DZXNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZXNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857FBED91C278CD200A33039 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		857FBEDB1C278CD200A33039 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		857FBEDC1C278CD200A33039 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		857FBEE41C278CD200A33039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		857FBEE71C278CD200A33039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		857FBEE91C278CD200A33039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857FBEEE1C278CD200A33039 /* DZXNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZXNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		857FBEF21C278CD200A33039 /* DZXNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZXNavigationControllerTests.m; sourceTree = "<group>"; };
+		857FBEF41C278CD200A33039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857FBEF91C278CD200A33039 /* DZXNavigationControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZXNavigationControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		857FBEFD1C278CD200A33039 /* DZXNavigationControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DZXNavigationControllerUITests.m; sourceTree = "<group>"; };
+		857FBEFF1C278CD200A33039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		857FBF0D1C278D6000A33039 /* DZXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZXViewController.h; sourceTree = "<group>"; };
+		857FBF0E1C278D6000A33039 /* DZXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZXViewController.m; sourceTree = "<group>"; };
+		857FBF101C278D9200A33039 /* DZXNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZXNavigationController.h; sourceTree = "<group>"; };
+		857FBF111C278D9200A33039 /* DZXNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZXNavigationController.m; sourceTree = "<group>"; };
+		857FBF131C278DB100A33039 /* DZXBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZXBarButtonItem.h; sourceTree = "<group>"; };
+		857FBF141C278DB100A33039 /* DZXBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZXBarButtonItem.m; sourceTree = "<group>"; };
+		857FBF161C278DD300A33039 /* PushTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTransitionAnimation.h; sourceTree = "<group>"; };
+		857FBF171C278DD300A33039 /* PushTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTransitionAnimation.m; sourceTree = "<group>"; };
+		857FBF191C278DE300A33039 /* PopTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTransitionAnimation.h; sourceTree = "<group>"; };
+		857FBF1A1C278DE300A33039 /* PopTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTransitionAnimation.m; sourceTree = "<group>"; };
+		857FBF451C29834300A33039 /* DZXExampleListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZXExampleListViewController.h; sourceTree = "<group>"; };
+		857FBF461C29834300A33039 /* DZXExampleListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZXExampleListViewController.m; sourceTree = "<group>"; };
+		857FBF471C29834300A33039 /* DZXExampleListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DZXExampleListViewController.xib; sourceTree = "<group>"; };
+		857FBF481C29834300A33039 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		857FBF491C29834300A33039 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		857FBF4A1C29834300A33039 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		857FBF4B1C29834300A33039 /* NavigationTranslucentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTranslucentViewController.h; sourceTree = "<group>"; };
+		857FBF4C1C29834300A33039 /* NavigationTranslucentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTranslucentViewController.m; sourceTree = "<group>"; };
+		857FBF4D1C29834300A33039 /* NavigationTranslucentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationTranslucentViewController.xib; sourceTree = "<group>"; };
+		857FBF4E1C29834300A33039 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		857FBF4F1C29834300A33039 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		857FBF501C29834300A33039 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		857FBF5A1C2A2CE600A33039 /* NavigationTitleViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTitleViewViewController.h; sourceTree = "<group>"; };
+		857FBF5B1C2A2CE600A33039 /* NavigationTitleViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTitleViewViewController.m; sourceTree = "<group>"; };
+		857FBF5C1C2A2CE600A33039 /* NavigationTitleViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationTitleViewViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		857FBED21C278CD200A33039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857FBEEB1C278CD200A33039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857FBEF61C278CD200A33039 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		857FBECC1C278CD200A33039 = {
+			isa = PBXGroup;
+			children = (
+				857FBED71C278CD200A33039 /* DZXNavigationController */,
+				857FBEF11C278CD200A33039 /* DZXNavigationControllerTests */,
+				857FBEFC1C278CD200A33039 /* DZXNavigationControllerUITests */,
+				857FBED61C278CD200A33039 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		857FBED61C278CD200A33039 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				857FBED51C278CD200A33039 /* DZXNavigationController.app */,
+				857FBEEE1C278CD200A33039 /* DZXNavigationControllerTests.xctest */,
+				857FBEF91C278CD200A33039 /* DZXNavigationControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		857FBED71C278CD200A33039 /* DZXNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				857FBF1C1C27A50F00A33039 /* Example */,
+				857FBF0C1C278D3900A33039 /* TransitionAnimation */,
+				857FBF0B1C278D3200A33039 /* Base */,
+				857FBEDB1C278CD200A33039 /* AppDelegate.h */,
+				857FBEDC1C278CD200A33039 /* AppDelegate.m */,
+				857FBEE41C278CD200A33039 /* Assets.xcassets */,
+				857FBEE61C278CD200A33039 /* LaunchScreen.storyboard */,
+				857FBEE91C278CD200A33039 /* Info.plist */,
+				857FBED81C278CD200A33039 /* Supporting Files */,
+			);
+			path = DZXNavigationController;
+			sourceTree = "<group>";
+		};
+		857FBED81C278CD200A33039 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				857FBED91C278CD200A33039 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		857FBEF11C278CD200A33039 /* DZXNavigationControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				857FBEF21C278CD200A33039 /* DZXNavigationControllerTests.m */,
+				857FBEF41C278CD200A33039 /* Info.plist */,
+			);
+			path = DZXNavigationControllerTests;
+			sourceTree = "<group>";
+		};
+		857FBEFC1C278CD200A33039 /* DZXNavigationControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				857FBEFD1C278CD200A33039 /* DZXNavigationControllerUITests.m */,
+				857FBEFF1C278CD200A33039 /* Info.plist */,
+			);
+			path = DZXNavigationControllerUITests;
+			sourceTree = "<group>";
+		};
+		857FBF0B1C278D3200A33039 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				857FBF101C278D9200A33039 /* DZXNavigationController.h */,
+				857FBF111C278D9200A33039 /* DZXNavigationController.m */,
+				857FBF0D1C278D6000A33039 /* DZXViewController.h */,
+				857FBF0E1C278D6000A33039 /* DZXViewController.m */,
+				857FBF131C278DB100A33039 /* DZXBarButtonItem.h */,
+				857FBF141C278DB100A33039 /* DZXBarButtonItem.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		857FBF0C1C278D3900A33039 /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				857FBF161C278DD300A33039 /* PushTransitionAnimation.h */,
+				857FBF171C278DD300A33039 /* PushTransitionAnimation.m */,
+				857FBF191C278DE300A33039 /* PopTransitionAnimation.h */,
+				857FBF1A1C278DE300A33039 /* PopTransitionAnimation.m */,
+			);
+			name = TransitionAnimation;
+			sourceTree = "<group>";
+		};
+		857FBF1C1C27A50F00A33039 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				857FBF2C1C2941AD00A33039 /* List */,
+				857FBF2E1C2941BF00A33039 /* Transition */,
+				857FBF301C29434F00A33039 /* Translucent */,
+				857FBF321C29437300A33039 /* Title */,
+				857FBF591C2A2C5000A33039 /* TitleView */,
+				857FBF341C29438000A33039 /* Button */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		857FBF2C1C2941AD00A33039 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				857FBF451C29834300A33039 /* DZXExampleListViewController.h */,
+				857FBF461C29834300A33039 /* DZXExampleListViewController.m */,
+				857FBF471C29834300A33039 /* DZXExampleListViewController.xib */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		857FBF2E1C2941BF00A33039 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				857FBF481C29834300A33039 /* FirstViewController.h */,
+				857FBF491C29834300A33039 /* FirstViewController.m */,
+				857FBF4E1C29834300A33039 /* SecondViewController.h */,
+				857FBF4F1C29834300A33039 /* SecondViewController.m */,
+				857FBF4A1C29834300A33039 /* FirstViewController.xib */,
+				857FBF501C29834300A33039 /* SecondViewController.xib */,
+			);
+			name = Transition;
+			sourceTree = "<group>";
+		};
+		857FBF301C29434F00A33039 /* Translucent */ = {
+			isa = PBXGroup;
+			children = (
+				857FBF4B1C29834300A33039 /* NavigationTranslucentViewController.h */,
+				857FBF4C1C29834300A33039 /* NavigationTranslucentViewController.m */,
+				857FBF4D1C29834300A33039 /* NavigationTranslucentViewController.xib */,
+			);
+			name = Translucent;
+			sourceTree = "<group>";
+		};
+		857FBF321C29437300A33039 /* Title */ = {
+			isa = PBXGroup;
+			children = (
+				11A4973C1C2984C3009EF490 /* NavigationTitleViewController.h */,
+				11A4973D1C2984C3009EF490 /* NavigationTitleViewController.m */,
+				11A4973E1C2984C3009EF490 /* NavigationTitleViewController.xib */,
+			);
+			name = Title;
+			sourceTree = "<group>";
+		};
+		857FBF341C29438000A33039 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				11A497411C298D14009EF490 /* NavigationBarButtonItemViewController.h */,
+				11A497421C298D14009EF490 /* NavigationBarButtonItemViewController.m */,
+				11A497431C298D14009EF490 /* NavigationBarButtonItemViewController.xib */,
+			);
+			name = Button;
+			sourceTree = "<group>";
+		};
+		857FBF591C2A2C5000A33039 /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				857FBF5A1C2A2CE600A33039 /* NavigationTitleViewViewController.h */,
+				857FBF5B1C2A2CE600A33039 /* NavigationTitleViewViewController.m */,
+				857FBF5C1C2A2CE600A33039 /* NavigationTitleViewViewController.xib */,
+			);
+			name = TitleView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		857FBED41C278CD200A33039 /* DZXNavigationController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857FBF021C278CD300A33039 /* Build configuration list for PBXNativeTarget "DZXNavigationController" */;
+			buildPhases = (
+				857FBED11C278CD200A33039 /* Sources */,
+				857FBED21C278CD200A33039 /* Frameworks */,
+				857FBED31C278CD200A33039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZXNavigationController;
+			productName = DZXNavigationController;
+			productReference = 857FBED51C278CD200A33039 /* DZXNavigationController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		857FBEED1C278CD200A33039 /* DZXNavigationControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857FBF051C278CD300A33039 /* Build configuration list for PBXNativeTarget "DZXNavigationControllerTests" */;
+			buildPhases = (
+				857FBEEA1C278CD200A33039 /* Sources */,
+				857FBEEB1C278CD200A33039 /* Frameworks */,
+				857FBEEC1C278CD200A33039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857FBEF01C278CD200A33039 /* PBXTargetDependency */,
+			);
+			name = DZXNavigationControllerTests;
+			productName = DZXNavigationControllerTests;
+			productReference = 857FBEEE1C278CD200A33039 /* DZXNavigationControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		857FBEF81C278CD200A33039 /* DZXNavigationControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857FBF081C278CD300A33039 /* Build configuration list for PBXNativeTarget "DZXNavigationControllerUITests" */;
+			buildPhases = (
+				857FBEF51C278CD200A33039 /* Sources */,
+				857FBEF61C278CD200A33039 /* Frameworks */,
+				857FBEF71C278CD200A33039 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				857FBEFB1C278CD200A33039 /* PBXTargetDependency */,
+			);
+			name = DZXNavigationControllerUITests;
+			productName = DZXNavigationControllerUITests;
+			productReference = 857FBEF91C278CD200A33039 /* DZXNavigationControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		857FBECD1C278CD200A33039 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Zahi;
+				TargetAttributes = {
+					857FBED41C278CD200A33039 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					857FBEED1C278CD200A33039 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 857FBED41C278CD200A33039;
+					};
+					857FBEF81C278CD200A33039 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 857FBED41C278CD200A33039;
+					};
+				};
+			};
+			buildConfigurationList = 857FBED01C278CD200A33039 /* Build configuration list for PBXProject "DZXNavigationController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 857FBECC1C278CD200A33039;
+			productRefGroup = 857FBED61C278CD200A33039 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				857FBED41C278CD200A33039 /* DZXNavigationController */,
+				857FBEED1C278CD200A33039 /* DZXNavigationControllerTests */,
+				857FBEF81C278CD200A33039 /* DZXNavigationControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		857FBED31C278CD200A33039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857FBF5E1C2A2CE600A33039 /* NavigationTitleViewViewController.xib in Resources */,
+				857FBEE81C278CD200A33039 /* LaunchScreen.storyboard in Resources */,
+				11A497451C298D14009EF490 /* NavigationBarButtonItemViewController.xib in Resources */,
+				857FBEE51C278CD200A33039 /* Assets.xcassets in Resources */,
+				857FBF581C29834300A33039 /* SecondViewController.xib in Resources */,
+				11A497401C2984C3009EF490 /* NavigationTitleViewController.xib in Resources */,
+				857FBF521C29834300A33039 /* DZXExampleListViewController.xib in Resources */,
+				857FBF541C29834300A33039 /* FirstViewController.xib in Resources */,
+				857FBF561C29834300A33039 /* NavigationTranslucentViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857FBEEC1C278CD200A33039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857FBEF71C278CD200A33039 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		857FBED11C278CD200A33039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A497441C298D14009EF490 /* NavigationBarButtonItemViewController.m in Sources */,
+				857FBF571C29834300A33039 /* SecondViewController.m in Sources */,
+				857FBF1B1C278DE300A33039 /* PopTransitionAnimation.m in Sources */,
+				857FBF0F1C278D6000A33039 /* DZXViewController.m in Sources */,
+				857FBEDD1C278CD200A33039 /* AppDelegate.m in Sources */,
+				857FBF511C29834300A33039 /* DZXExampleListViewController.m in Sources */,
+				857FBF531C29834300A33039 /* FirstViewController.m in Sources */,
+				857FBF121C278D9200A33039 /* DZXNavigationController.m in Sources */,
+				11A4973F1C2984C3009EF490 /* NavigationTitleViewController.m in Sources */,
+				857FBF181C278DD300A33039 /* PushTransitionAnimation.m in Sources */,
+				857FBF5D1C2A2CE600A33039 /* NavigationTitleViewViewController.m in Sources */,
+				857FBF551C29834300A33039 /* NavigationTranslucentViewController.m in Sources */,
+				857FBF151C278DB100A33039 /* DZXBarButtonItem.m in Sources */,
+				857FBEDA1C278CD200A33039 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857FBEEA1C278CD200A33039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857FBEF31C278CD200A33039 /* DZXNavigationControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857FBEF51C278CD200A33039 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				857FBEFE1C278CD200A33039 /* DZXNavigationControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		857FBEF01C278CD200A33039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857FBED41C278CD200A33039 /* DZXNavigationController */;
+			targetProxy = 857FBEEF1C278CD200A33039 /* PBXContainerItemProxy */;
+		};
+		857FBEFB1C278CD200A33039 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857FBED41C278CD200A33039 /* DZXNavigationController */;
+			targetProxy = 857FBEFA1C278CD200A33039 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		857FBEE61C278CD200A33039 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				857FBEE71C278CD200A33039 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		857FBF001C278CD300A33039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		857FBF011C278CD300A33039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		857FBF031C278CD300A33039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZXNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devzahi.DZXNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		857FBF041C278CD300A33039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DZXNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devzahi.DZXNavigationController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		857FBF061C278CD300A33039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DZXNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devzahi.DZXNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZXNavigationController.app/DZXNavigationController";
+			};
+			name = Debug;
+		};
+		857FBF071C278CD300A33039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DZXNavigationControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devzahi.DZXNavigationControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DZXNavigationController.app/DZXNavigationController";
+			};
+			name = Release;
+		};
+		857FBF091C278CD300A33039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DZXNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devzahi.DZXNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DZXNavigationController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		857FBF0A1C278CD300A33039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DZXNavigationControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devzahi.DZXNavigationControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DZXNavigationController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		857FBED01C278CD200A33039 /* Build configuration list for PBXProject "DZXNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857FBF001C278CD300A33039 /* Debug */,
+				857FBF011C278CD300A33039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857FBF021C278CD300A33039 /* Build configuration list for PBXNativeTarget "DZXNavigationController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857FBF031C278CD300A33039 /* Debug */,
+				857FBF041C278CD300A33039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857FBF051C278CD300A33039 /* Build configuration list for PBXNativeTarget "DZXNavigationControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857FBF061C278CD300A33039 /* Debug */,
+				857FBF071C278CD300A33039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857FBF081C278CD300A33039 /* Build configuration list for PBXNativeTarget "DZXNavigationControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				857FBF091C278CD300A33039 /* Debug */,
+				857FBF0A1C278CD300A33039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 857FBECD1C278CD200A33039 /* Project object */;
+}
